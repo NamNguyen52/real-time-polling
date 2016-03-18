@@ -1,0 +1,24 @@
+{
+  "name": "polling-app-node-rethinkdb",
+  "version": "1.0.0",
+  "description": "Building real time polling application useing RethinkDB and Node.js",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "rethinkdb": "^2.2.2",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7"
+  }
+}
